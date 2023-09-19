@@ -12,7 +12,7 @@ const App = () =>{
 
             </div>
             <div className="footer">
-
+                
             </div>
         </div>
     );
