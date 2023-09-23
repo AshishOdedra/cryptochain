@@ -1,18 +1,11 @@
 import  {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query';
-// const options = {
-//     method: 'GET',
-//     url: 'https://coinranking1.p.rapidapi.com/coins',
-//     params: {
-//       referenceCurrencyUuid: 'yhjMzLPhuIDl',
-//       timePeriod: '24h',
-//       'tiers[0]': '1',
-//       orderBy: 'marketCap',
-//       orderDirection: 'desc',
-//       limit: '50',
-//       offset: '0'
-//     },
-//     headers: {
-//       'X-RapidAPI-Key': '860ec459a3mshfa6a745e27d8badp150569jsnce3715b8f666',
-//       'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
-//     }
-//   };
+
+const cryptoApiHeaders = {
+      'X-RapidAPI-Key': '07c4386213msh2c5699b2ac39d38p144e3bjsn7c2af28c64c9',
+      'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
+}
+const baseUrl = 'https://coinranking1.p.rapidapi.com';
+
+export const cryptoApi = createApi({
+
+});
